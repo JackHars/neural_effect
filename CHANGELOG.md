@@ -1,3 +1,3 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+* Initial release of the Neural Effect Flutter widget featuring an animated 3D particle background effect.
