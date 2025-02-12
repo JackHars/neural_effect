@@ -15,7 +15,7 @@ To add Neural Effect to your project, add the dependency in your `pubspec.yaml` 
 
 ```yaml
 dependencies:
-  neural_effect: ^1.0.1
+  neural_effect: ^1.0.2
 ```
 
 Then, run:
