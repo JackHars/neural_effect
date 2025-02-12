@@ -15,7 +15,7 @@ To add Neural Effect to your project, add the dependency in your `pubspec.yaml` 
 
 ```yaml
 dependencies:
-  neural_effect: ^1.0.0
+  neural_effect: ^1.0.1
 ```
 
 Then, run:
@@ -26,7 +26,7 @@ flutter pub get
 
 ## Usage
 
-Wrap your content with the `ParticleBackground` widget to display an animated 3D particle background:
+Wrap your content with the `NeuralEffect` widget to display an animated 3D particle background:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -35,7 +35,7 @@ import 'package:neural_effect/neural_effect.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      body: ParticleBackground(
+      body: NeuralEffect(
         child: Center(
           child: Text(
             'Hello, Neural Effect!',

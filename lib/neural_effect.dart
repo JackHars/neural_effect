@@ -163,15 +163,15 @@ class ParticlePainter extends CustomPainter {
       oldDelegate.rotationY != rotationY;
 }
 
-class ParticleBackground extends StatefulWidget {
+class NeuralEffect extends StatefulWidget {
   final Widget child;
-  const ParticleBackground({super.key, required this.child});
+  const NeuralEffect({super.key, required this.child});
 
   @override
-  State<ParticleBackground> createState() => _ParticleBackgroundState();
+  State<NeuralEffect> createState() => _NeuralEffectState();
 }
 
-class _ParticleBackgroundState extends State<ParticleBackground>
+class _NeuralEffectState extends State<NeuralEffect>
     with SingleTickerProviderStateMixin {
   late List<Particle> particles;
   late AnimationController _controller;

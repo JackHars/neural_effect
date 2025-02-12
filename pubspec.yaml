@@ -1,6 +1,6 @@
 name: neural_effect
 description: "A Flutter widget for an animated 3D particle background effect."
-version: 1.0.0
+version: 1.0.1
 homepage: "https://github.com/JackHars/neural_effect"
 
 environment:
